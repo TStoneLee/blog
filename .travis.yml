@@ -1,7 +1,8 @@
 language: node_js
 node_js:
   - lts/*
-install: true
+install: 
+  - npm install
 script:
   - npm run build
 deploy:
