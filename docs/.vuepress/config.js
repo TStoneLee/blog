@@ -32,7 +32,7 @@ module.exports = {
           collapsable: true,
           sidebarDepth: 1,
           children: [
-            ['test3.md', '子菜单2']
+            ['test.md', '子菜单2']
           ]
         },
         {
@@ -45,7 +45,9 @@ module.exports = {
           ]
         }
       ],
-      '/pages/developmentNotes/': [],
+      '/pages/developmentNotes/': [
+        'mention.md'
+      ],
       '/pages/algorithmNotes/': [],
       '/pages/readNotes/': []
     }
