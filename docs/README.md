@@ -1,17 +1,17 @@
 ---
 home: true
-heroImage: /tongyang.jpeg
+heroImage: /dashboardBG.jpeg
 heroText: 个人博客
-tagline: 个人技术总结&随想
+tagline: 技术总结&随想
 actionText: 进来瞅瞅吧
-actionLink: /pages/test/test.md
+actionLink: /pages/advancedNotes/test.md
 search: false
 features: 
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
-footer: MIT Licensed | Copyright © 2018-present Evan You
+- title: 开发&学习
+  details: 本博客主要是用于日常学习总结，记录自己在日常开发过程遇到的问题，以及学习到新的知识点
+- title: 刷题&总结
+  details: 作为一名程序员，刷算法题是必要，还是一名菜鸡前端程序员，那就更要刷题了！主要是算法太烂了，所以这里也会记录我刷的题目，以及在解题的过程，如何思考（看答案）。
+- title: 生活&感悟
+  details: 上面的图片是在某场痛仰乐队的演出现场拍到的（某位乐迷拍的），某位乐迷带着自己家的小孩子去现场看演出，摇滚就要从娃娃抓起。我也会去看一些乐队的现场和音乐节，至少那那一个半小时内，可以全身心投入，放空自己，不被什么叨扰。
+# footer: MIT Licensed | Copyright © 2018-present Evan You
 ---

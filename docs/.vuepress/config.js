@@ -1,5 +1,5 @@
 module.exports = {
-  title: '前端技术摘抄',
+  title: '前端摘抄',
   base: '/',
   description: '个人博客网站',
   // search: false,
@@ -11,29 +11,43 @@ module.exports = {
     logo: '/tongyang.jpeg',
     nav: [
       { text: '首页', link: '/'},
-      { text: '分类', link: '/guide/'},
-      { text: '其他', link: 'https://baidu.com'}
+      { text: '进阶笔记', link: '/pages/advancedNotes/test.md'},
+      { text: '项目笔记', link: '/pages/developmentNotes/test.md'},
+      { text: '算法笔记', link: '/pages/algorithmNotes/test.md'},
+      { text: '读书笔记', link: '/pages/readNotes/test.md'},
+      { text: 'GitHub', link: 'https://github.com/ThreeStonesLee'}
     ],
     sidebar: {
-      '/pages/test/': [
+      '/pages/advancedNotes/': [
         {
-          title: '菜单1',
+          title: 'JavaScript',
+          collapsable: true,
+          sidebarDepth: 1,
+          children: [
+            ['test.md', '子菜单2']
+          ]
+        },
+        {
+          title: 'CSS',
+          collapsable: true,
+          sidebarDepth: 1,
+          children: [
+            ['test3.md', '子菜单2']
+          ]
+        },
+        {
+          title: 'HTML',
           collapsable: true,
           sidebarDepth: 1,
           children: [
             ['test.md', '子菜单1'],
             ['test2.md', '子菜单2']
           ]
-        },
-        {
-          title: '菜单2',
-          collapsable: true,
-          sidebarDepth: 1,
-          children: [
-            ['test3.md', '子菜单2']
-          ]
         }
-      ]
+      ],
+      '/pages/developmentNotes/': [],
+      '/pages/algorithmNotes/': [],
+      '/pages/readNotes/': []
     }
   }
 }
