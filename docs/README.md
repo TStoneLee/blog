@@ -4,7 +4,7 @@ heroImage: /dashboardBG.jpeg
 heroText: 个人博客
 tagline: 技术总结&随想
 actionText: 进来瞅瞅吧
-actionLink: /pages/advancedNotes/test.md
+actionLink: /pages/advanced/test.md
 search: false
 features: 
 - title: 开发&学习
