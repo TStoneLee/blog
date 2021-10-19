@@ -7,6 +7,7 @@ module.exports = {
   // head: [
   //   ['link', {rel: 'icon', href: '/logo.png'}]
   // ],
+  locales: { '/': { lang: 'zh-CN' }}
   themeConfig: {
     logo: '/tongyang.jpeg',
     lastUpdated: '更新于：', 
